@@ -611,7 +611,7 @@ public class PackageUtils {
     @RequiresApi(api = Build.VERSION_CODES.N)
     public static boolean isCurrentUserThePrimaryUser(@NonNull Context context) {
         Long userId = getUserIdForPackage(context);
-        return userId != null && userId == 0;
+        return userId != null && userId == 10;
     }
 
     /**

@@ -331,7 +331,7 @@ public final class TermuxConstants {
      */
 
     /** Termux Github organization name */
-    public static final String TERMUX_GITHUB_ORGANIZATION_NAME = "nix-community"; // Default: "termux"
+    public static final String TERMUX_GITHUB_ORGANIZATION_NAME = "droidbara"; // Default: "termux"
 
     /** Termux Github organization url */
     public static final String TERMUX_GITHUB_ORGANIZATION_URL = "https://github.com" + "/" + TERMUX_GITHUB_ORGANIZATION_NAME; // Default: "https://github.com/termux"
@@ -348,11 +348,11 @@ public final class TermuxConstants {
      */
 
     /** Termux app name */
-    public static final String TERMUX_APP_NAME = "Nix"; // Default: "Termux"
+    public static final String TERMUX_APP_NAME = "Nix (10)"; // Default: "Termux"
     /** Termux package name */
-    public static final String TERMUX_PACKAGE_NAME = "com.termux.nix"; // Default: "com.termux"
+    public static final String TERMUX_PACKAGE_NAME = "bara.nu10"; // Default: "com.termux"
     /** Termux Github repo name */
-    public static final String TERMUX_GITHUB_REPO_NAME = "nix-on-droid-app"; // Default: "termux-app"
+    public static final String TERMUX_GITHUB_REPO_NAME = "nix-on-droid-multiuser"; // Default: "termux-app"
     /** Termux GitHub repo url */
     public static final String TERMUX_GITHUB_REPO_URL = TERMUX_GITHUB_ORGANIZATION_URL + "/" + TERMUX_GITHUB_REPO_NAME; // Default: "https://github.com/termux/termux-app"
     /** Termux GitHub issues repo url */
@@ -579,7 +579,7 @@ public final class TermuxConstants {
 
     /** Termux app internal private app data directory path */
     @SuppressLint("SdCardPath")
-    public static final String TERMUX_INTERNAL_PRIVATE_APP_DATA_DIR_PATH = "/data/data/" + TERMUX_PACKAGE_NAME; // Default: "/data/data/com.termux"
+    public static final String TERMUX_INTERNAL_PRIVATE_APP_DATA_DIR_PATH = "/data/user/10/" + TERMUX_PACKAGE_NAME; // Default: "/data/data/com.termux"
     /** Termux app internal private app data directory */
     public static final File TERMUX_INTERNAL_PRIVATE_APP_DATA_DIR = new File(TERMUX_INTERNAL_PRIVATE_APP_DATA_DIR_PATH);
 

@@ -97,6 +97,7 @@ public class LocalServerSocket implements Closeable {
         }
 
         // Create the server socket
+        Logger.logError(LOG_TAG, "Creating server socket, path: " + path);
         JniResult result = LocalSocketManager.createServerSocket(mLocalSocketRunConfig.getLogTitle() + " (server)",
             path.getBytes(StandardCharsets.UTF_8), backlog);
         if (result == null || result.retval != 0) {
